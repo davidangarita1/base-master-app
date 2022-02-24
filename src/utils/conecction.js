@@ -1,0 +1,1 @@
+export const API_URL = import.meta.env.REACT_APP_DATABASE_URL
