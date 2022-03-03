@@ -2,7 +2,7 @@
 
 COMM=$1;
 NAME=$2;
-SOURCE="https://raw.githubusercontent.com/davidangarita1/base-master-app/main/Project/base/redux";
+SOURCE="https://raw.githubusercontent.com/davidangarita1/base-master-app/main/Project/redux";
 
 if [ "$COMM" = "redux" ]; then
 	NAMEU=${NAME^^}
