@@ -1,4 +1,4 @@
-import actionTypesExample from '../actions/actionTypes/ActionTypesExample'
+import actionTypesExample from '../actions/actionTypes/actionTypesExample'
 
 const initialState = {
   isLoading: false,
@@ -6,7 +6,7 @@ const initialState = {
   error: null
 }
 
-const ExampleReducer = (state = initialState, { type, payload }) => {
+const exampleReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case actionTypesExample.LOAD_SUCCESS_EXAMPLE:
       return {
@@ -32,4 +32,4 @@ const ExampleReducer = (state = initialState, { type, payload }) => {
   }
 }
 
-export default ExampleReducer
+export default exampleReducer

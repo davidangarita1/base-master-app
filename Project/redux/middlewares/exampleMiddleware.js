@@ -7,7 +7,7 @@ export const getExample = (id) => (dispatch) => {
 
   const options = {
     method: 'GET',
-    url: `${API_URL}example/${id}`,
+    url: `${API_URL}/example/${id}`,
     headers: { 'Content-Type': 'application/json' }
   }
 
