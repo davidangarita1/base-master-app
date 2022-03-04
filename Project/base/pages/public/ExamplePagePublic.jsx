@@ -1,4 +1,4 @@
-import ExamplePublic from '../../components/private/ExamplePublic'
+import ExamplePublic from '../../components/public/ExamplePublic'
 
 const ExamplePagePublic = () => {
   return (
