@@ -2,8 +2,8 @@ import actionTypesExample from '../actions/actionTypes/actionTypesExample'
 
 const initialState = {
   isLoading: false,
-  example: null,
-  error: null
+  example: {},
+  error: false
 }
 
 const exampleReducer = (state = initialState, { type, payload }) => {
